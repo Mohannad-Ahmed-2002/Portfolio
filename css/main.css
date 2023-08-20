@@ -18,6 +18,9 @@ nav {
   z-index: 4484848;
 }
 
+
+
+
 nav header {
   color: White;
   font-weight: 800;
@@ -311,20 +314,13 @@ transition: 0.5s ease-in-out;
 
 
 
-    nav header {
-        color: White;
-        font-weight: 800;
-        letter-spacing: 1px;
-        font-size: 30px;
-        color: rgb(0, 167, 167);
-        margin-right: 20pxpx;
-        
-      }
+
       
 nav div{
     display: flex;
     justify-content: space-around;
-    
+    width: 50%;
+
     
 }
 
@@ -332,15 +328,18 @@ nav div{
 
 nav header {
     color: White;
+    width: 50%;
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 20px;
     color: rgb(0, 167, 167);
+    margin-left: 0px;
   }
 
 nav div a {
     display: inline-block;
-    padding: 2px;
+    padding: 0px;
+    margin-left: 0px;
     text-decoration: none;
     color: white;
     font-size: 15px;
@@ -372,13 +371,13 @@ nav div a {
 
 
 .home .layout .content div{
-width: 40%;
+width: 30%;
 display: inline-block;
 
 }
 
 .home .layout .content div h2{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -404,7 +403,7 @@ display: inline-block;
     width: 300px;
     height: auto;
     height: 300px;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
 /* -----------End home-------------------- */
