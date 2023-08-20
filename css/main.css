@@ -308,20 +308,27 @@ transition: 0.5s ease-in-out;
 
 
 @media (max-width:750px){
+
+
+
     nav header {
         color: White;
         font-weight: 800;
         letter-spacing: 1px;
-        font-size: 25px;
+        font-size: 30px;
         color: rgb(0, 167, 167);
-        margin-right: 70px;
+        margin-right: 20pxpx;
+        
       }
       
 nav div{
     display: flex;
     justify-content: space-around;
     
+    
 }
+
+
 
 nav header {
     color: White;
@@ -333,12 +340,12 @@ nav header {
 
 nav div a {
     display: inline-block;
-    padding-right: 5px;
+    padding: 2px;
     text-decoration: none;
     color: white;
-    margin-left: 5px;
+    font-size: 15px;
     margin-top: 7px;
-    font-size: smaller;
+    
   }
   
 
@@ -464,12 +471,13 @@ font-size: 30px;
 }
 
 footer .icons{
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-size: 20px;
     
 }
 
