@@ -362,16 +362,17 @@ nav div a {
 
 
       .home .layout .content{
-        width: 90%;
+        width: 100%;
         height: auto;
         display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
         flex-wrap: nowrap;
+
       }
 
 
 .home .layout .content div{
-width: 30%;
+width: 20%;
 display: inline-block;
 
 }
@@ -382,7 +383,7 @@ display: inline-block;
 
 
 .home .layout .content div span{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
@@ -400,7 +401,7 @@ display: inline-block;
 
 .home .layout .content img{
     display: inline;
-    width: 300px;
+width: 60%;
     height: auto;
     height: 300px;
     margin-left: 40px;
